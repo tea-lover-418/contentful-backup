@@ -13,4 +13,10 @@ export class ContentfulApi {
   async getModel() {
     return this.client.getContentTypes();
   }
+
+  async getEntriesForContentType(contentType: string) {
+    return this.client.getEntries({
+      content_type: contentType,
+    });
+  }
 }
