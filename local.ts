@@ -3,5 +3,6 @@ import "dotenv/config";
 
 main(
   process.env["CONTENTFUL_SPACE_ID"],
-  process.env["CONTENTFUL_DELIVERY_API_TOKEN"]
+  process.env["CONTENTFUL_DELIVERY_API_TOKEN"],
+  "exports"
 );
