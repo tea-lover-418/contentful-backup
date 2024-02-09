@@ -1,4 +1,5 @@
-import { main } from "./src";
+import { main } from "./src/script";
+import "dotenv/config";
 
 main(
   process.env["CONTENTFUL_SPACE_ID"],

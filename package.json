@@ -5,16 +5,18 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src --space-id 1 --access-token 1"
+    "dev": "ts-node local"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "arg": "^5.0.2",
     "contentful": "^10.6.21",
-    "typescript": "^5.3.3"
+    "dotenv": "^16.4.1"
   },
   "devDependencies": {
-    "@types/node": "^20.11.17"
+    "@types/node": "^20.11.17",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
   }
 }
