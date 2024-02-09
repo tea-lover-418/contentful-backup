@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "export-contentul": "./build/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "ts-node local"
