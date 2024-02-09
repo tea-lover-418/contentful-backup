@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "ts-node src --space-id 1 --access-token 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "arg": "^5.0.2",
     "contentful": "^10.6.21",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17"
   }
 }
