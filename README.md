@@ -1,5 +1,9 @@
 # Contentful Backup
 
+RIP, this already exists.
+
+Just use https://github.com/contentful/contentful-export
+
 ### Args
 
 - `--space-id`
