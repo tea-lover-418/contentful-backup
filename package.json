@@ -1,0 +1,15 @@
+{
+  "name": "contentful-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful": "^10.6.21",
+    "typescript": "^5.3.3"
+  }
+}
